@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>instructions</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-
-
-
-
-<style type="text/css">
-    pre { line-height: 125%; }
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CS328 Writing Assignment
+  </title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js">
+  </script>
+  <style type="text/css">
+   pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
@@ -57,11 +57,8 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .ss { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Symbol */
 .highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
   </style>
-
-
-
-<style type="text/css">
-/*-----------------------------------------------------------------------------
+  <style type="text/css">
+   /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
@@ -14055,11 +14052,9 @@ div.jp-Cell-Placeholder-content-2 {
 div.jp-Cell-Placeholder-content-3 {
   top: 140px;
 }
-
-</style>
-
-    <style type="text/css">
-/*-----------------------------------------------------------------------------
+  </style>
+  <style type="text/css">
+   /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
 | Distributed under the terms of the Modified BSD License.
 |----------------------------------------------------------------------------*/
@@ -14468,10 +14463,9 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-icon-contrast-color2: var(--md-pink-600);
   --jp-icon-contrast-color3: var(--md-blue-600);
 }
-</style>
-
-<style type="text/css">
-a.anchor-link {
+  </style>
+  <style type="text/css">
+   a.anchor-link {
    display: none;
 }
 .highlight  {
@@ -14492,13 +14486,13 @@ a.anchor-link {
     margin: 0;
   }
 }
-</style>
-
-<!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"> </script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
-    init_mathjax = function() {
+  </style>
+  <!-- Load mathjax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe">
+  </script>
+  <!-- MathJax configuration -->
+  <script type="text/x-mathjax-config">
+   init_mathjax = function() {
         if (window.MathJax) {
         // MathJax loaded
             MathJax.Hub.Config({
@@ -14526,120 +14520,381 @@ a.anchor-link {
         }
     }
     init_mathjax();
-    </script>
-    <!-- End of mathjax configuration --></head>
-<body class="jp-Notebook" data-jp-theme-light="false" data-jp-theme-name="JupyterLab Dark">
-
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Writing-Assignment">Writing Assignment<a class="anchor-link" href="#Writing-Assignment">&#182;</a></h1><h2 id="CS328-2022">CS328 2022<a class="anchor-link" href="#CS328-2022">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Contributing">Contributing<a class="anchor-link" href="#Contributing">&#182;</a></h3><ul>
-<li>For the writing-assignment, the changes need to be made in <code>_notebooks/index.ipynb</code>. </li>
-<li>Other notebooks will not be evaluated.</li>
-<li>Students are free to create and edit new notebooks to try and test features on the HTML outputs.</li>
-<li>Data Files (CSV, json, etc.) needs to be placed in <code>_notebooks/data</code> directory. All asset files (images, gif) need to be placed in <code>_notebooks/assets</code> directory.</li>
-<li>As a good practive, the large files in data directory should be in compressed format (gzip compression, etc).</li>
-<li>Add the <code>upstream</code> remote. This saves a reference to the main Writing-Assignment repository, which you can use to keep your repository synchronized with the latest changes.
-  <code>`git remote add upstream git@github.com:cs328-2022/writing-assignment.git</code></li>
-<li>Check that the upstream and origin remote aliases are configured correctly by running <code>git remote -v</code> which should display:
-<pre><code>  origin  git@github.com:CS328-Spring-2022/writing-assignment-&lt;team_name&gt;.git (fetch)
+  </script>
+  <!-- End of mathjax configuration -->
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="jp-Notebook" data-jp-theme-light="false" data-jp-theme-name="JupyterLab Dark">
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <h1 id="Writing-Assignment">
+     Writing Assignment
+     <a class="anchor-link" href="#Writing-Assignment">
+      ¶
+     </a>
+    </h1>
+    <h2 id="CS328-2022">
+     CS328 2022
+     <a class="anchor-link" href="#CS328-2022">
+      ¶
+     </a>
+    </h2>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <h3 id="Contributing">
+     Contributing
+     <a class="anchor-link" href="#Contributing">
+      ¶
+     </a>
+    </h3>
+    <ul>
+     <li>
+      For the writing-assignment, the changes need to be made in
+      <code>
+       _notebooks/index.ipynb
+      </code>
+      .
+     </li>
+     <li>
+      Other notebooks will not be evaluated.
+     </li>
+     <li>
+      Students are free to create and edit new notebooks to try and test features on the HTML outputs.
+     </li>
+     <li>
+      Data Files (CSV, json, etc.) needs to be placed in
+      <code>
+       _notebooks/data
+      </code>
+      directory. All asset files (images, gif) need to be placed in
+      <code>
+       _notebooks/assets
+      </code>
+      directory.
+     </li>
+     <li>
+      As a good practive, the large files in data directory should be in compressed format (gzip compression, etc).
+     </li>
+     <li>
+      Add the
+      <code>
+       upstream
+      </code>
+      remote. This saves a reference to the main Writing-Assignment repository, which you can use to keep your repository synchronized with the latest changes.
+      <code>
+       `git remote add upstream git@github.com:cs328-2022/writing-assignment.git
+      </code>
+     </li>
+     <li>
+      Check that the upstream and origin remote aliases are configured correctly by running
+      <code>
+       git remote -v
+      </code>
+      which should display:
+      <pre><code>  origin  git@github.com:CS328-Spring-2022/writing-assignment-&lt;team_name&gt;.git (fetch)
   origin  git@github.com:CS328-Spring-2022/writing-assignment-&lt;team_name&gt;.git (push)
   upstream        git@github.com:cs328-2022/writing-assignment.git (fetch)
   upstream        git@github.com:cs328-2022/writing-assignment.git (push)</code></pre>
-</li>
-<li>Synchronize your main branch with the upstream/main branch, more details on <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork">GitHub Docs</a>:
-<pre><code>  git checkout main
+     </li>
+     <li>
+      Synchronize your main branch with the upstream/main branch, more details on
+      <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork">
+       GitHub Docs
+      </a>
+      :
+      <pre><code>  git checkout main
   git fetch upstream
   git merge upstream/main</code></pre>
-We may push some new changes to the main repository and would ask all to synchronize their repositories using the main repository changes with the above fetch and merge command.</li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Building-HTML-output-on-local-system">Building HTML output on local system<a class="anchor-link" href="#Building-HTML-output-on-local-system">&#182;</a></h3><ol>
-<li>Install the python dependencies with <code>pip install -r requirements.txt</code>.</li>
-<li><p>Convert all notebooks in <code>_notebooks</code> folder to HTML using</p>
-<div class="highlight"><pre><span></span>jupyter nbconvert _notebooks/*.ipynb --to html --output-dir<span class="o">=</span>_html --HTMLExporter.theme<span class="o">=</span>dark
+      We may push some new changes to the main repository and would ask all to synchronize their repositories using the main repository changes with the above fetch and merge command.
+     </li>
+    </ul>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <h3 id="Building-HTML-output-on-local-system">
+     Building HTML output on local system
+     <a class="anchor-link" href="#Building-HTML-output-on-local-system">
+      ¶
+     </a>
+    </h3>
+    <ol>
+     <li>
+      Install the python dependencies with
+      <code>
+       pip install -r requirements.txt
+      </code>
+      .
+     </li>
+     <li>
+      <p>
+       Convert all notebooks in
+       <code>
+        _notebooks
+       </code>
+       folder to HTML using
+      </p>
+      <div class="highlight">
+       <pre><span></span>jupyter nbconvert _notebooks/*.ipynb --to html --output-dir<span class="o">=</span>_html --HTMLExporter.theme<span class="o">=</span>dark
  chmod +x utils/process_html.sh
  utils/process_html.sh
-</pre></div>
-<p><strong>Note1:</strong> The bash script <code>process_html.sh</code> inserts link to <code>_html/style.css</code> in each generated HTML output file. So the CSS file <code>_html/style.css</code> won't work without running this command on each build.<br>
- <strong>Note2:</strong> For light-theme remove <code>--HTMLExporter.theme=dark</code> from the first command. For light theme in build, remove <code>--HTMLExporter.theme=dark</code> from line <code>29</code> in <code>.github/workflows/deploy.yml</code>.</p>
-</li>
-<li><p>The output HTML files would be stored in folder <code>_html</code>.</p>
-</li>
-<li>To change the styling of the html files, edit <code>_html/style.css</code>. This CSS is applied to all of the notebooks. </li>
-</ol>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Hosting-on-Netlify">Hosting on <a href="https://www.netlify.com/">Netlify</a><a class="anchor-link" href="#Hosting-on-Netlify">&#182;</a></h3><ul>
-<li><strong>The repository need to be kept private</strong>.</li>
-<li>As GitHub pages requires pro account for hosting private repositories, the websites need to be hosted on Netlify.</li>
-<li>On every <code>push</code> to the repository, the HTML output is generated and pushed to the <code>gh-pages</code> branch of the repository via Github actions.
-  <strong>Note:</strong>: Sometimes the github actions are not triggered in forked or generated from template repositories. To overcome this, make a tiny non-significant change to <code>.github/workflows/deploy.yml</code> such as adding new-line at the end of file or changing the name of github action in line <code>1</code> of <code>.github/workflows/deploy.yml</code> and push the new changes. This should solve the problem and github actions should be triggered normally on every push from now on. Doing this once is enough.</li>
-<li>Deploy the github repository on Netlify following this <a href="https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/">guide</a>.</li>
-<li>Make sure to choose deploy/production branch as <code>gh-pages</code> and not <code>main</code> branch. </li>
-<li>Give an appropriate sitename in the site settings.</li>
-<li>Finally the website link would look like <code>https://&lt;site_name&gt;.netlify.app</code></li>
-<li>Update the Netlify links in the <code>README.md</code> with your website links.</li>
-</ul>
-<p>Once this is done, all changes to github repository should reflect on the netlify website within few minutes after each push.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Interactive-Notebooks">Interactive Notebooks<a class="anchor-link" href="#Interactive-Notebooks">&#182;</a></h3><ul>
-<li><strong>Bonus marks for making the notebooks interactive</strong></li>
-<li><a href="https://plotly.com/python/">Plotly</a> is recommended for adding interactive visualizations.</li>
-<li>Matplotlib animations are also recommended for making notebooks interactive.</li>
-<li>Maplotlib animations are not rendered in HTML by default. It needs to be enabled in the notebook by the following snippet:<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rc</span>
-<span class="n">rc</span><span class="p">(</span><span class="s1">&#39;animation&#39;</span><span class="p">,</span> <span class="n">html</span><span class="o">=</span><span class="s1">&#39;jshtml&#39;</span><span class="p">)</span>
-</pre></div>
-</li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="What-would-be-considered-in-evaluation?">What would be considered in evaluation?<a class="anchor-link" href="#What-would-be-considered-in-evaluation?">&#182;</a></h3><ol>
-<li>Link to the Netlify website (put the website links in README file)</li>
-<li>From the code repository:<ul>
-<li><code>index.html</code> in the gh-pages brach</li>
-<li><code>index.ipynb</code> in the main branch</li>
-</ul>
-</li>
-</ol>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Doubts/QnA">Doubts/QnA<a class="anchor-link" href="#Doubts/QnA">&#182;</a></h3>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We will be using <a href="https://github.com/cs328-2022/writing-assignment/discussions">GitHub Discussions</a> on the main <code>Writing-Assignment</code> repository for resolving doubts or any other concern.</p>
-
-</div>
-</div>
-</body>
-
-
-
-
-
-
-
+</pre>
+      </div>
+      <p>
+       <strong>
+        Note1:
+       </strong>
+       The bash script
+       <code>
+        process_html.sh
+       </code>
+       inserts link to
+       <code>
+        _html/style.css
+       </code>
+       in each generated HTML output file. So the CSS file
+       <code>
+        _html/style.css
+       </code>
+       won't work without running this command on each build.
+       <br/>
+       <strong>
+        Note2:
+       </strong>
+       For light-theme remove
+       <code>
+        --HTMLExporter.theme=dark
+       </code>
+       from the first command. For light theme in build, remove
+       <code>
+        --HTMLExporter.theme=dark
+       </code>
+       from line
+       <code>
+        29
+       </code>
+       in
+       <code>
+        .github/workflows/deploy.yml
+       </code>
+       .
+      </p>
+     </li>
+     <li>
+      <p>
+       The output HTML files would be stored in folder
+       <code>
+        _html
+       </code>
+       .
+      </p>
+     </li>
+     <li>
+      To change the styling of the html files, edit
+      <code>
+       _html/style.css
+      </code>
+      . This CSS is applied to all of the notebooks.
+     </li>
+    </ol>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <h3 id="Hosting-on-Netlify">
+     Hosting on
+     <a href="https://www.netlify.com/">
+      Netlify
+     </a>
+     <a class="anchor-link" href="#Hosting-on-Netlify">
+      ¶
+     </a>
+    </h3>
+    <ul>
+     <li>
+      <strong>
+       The repository need to be kept private
+      </strong>
+      .
+     </li>
+     <li>
+      As GitHub pages requires pro account for hosting private repositories, the websites need to be hosted on Netlify.
+     </li>
+     <li>
+      On every
+      <code>
+       push
+      </code>
+      to the repository, the HTML output is generated and pushed to the
+      <code>
+       gh-pages
+      </code>
+      branch of the repository via Github actions.
+      <strong>
+       Note:
+      </strong>
+      : Sometimes the github actions are not triggered in forked or generated from template repositories. To overcome this, make a tiny non-significant change to
+      <code>
+       .github/workflows/deploy.yml
+      </code>
+      such as adding new-line at the end of file or changing the name of github action in line
+      <code>
+       1
+      </code>
+      of
+      <code>
+       .github/workflows/deploy.yml
+      </code>
+      and push the new changes. This should solve the problem and github actions should be triggered normally on every push from now on. Doing this once is enough.
+     </li>
+     <li>
+      Deploy the github repository on Netlify following this
+      <a href="https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/">
+       guide
+      </a>
+      .
+     </li>
+     <li>
+      Make sure to choose deploy/production branch as
+      <code>
+       gh-pages
+      </code>
+      and not
+      <code>
+       main
+      </code>
+      branch.
+     </li>
+     <li>
+      Give an appropriate sitename in the site settings.
+     </li>
+     <li>
+      Finally the website link would look like
+      <code>
+       https://&lt;site_name&gt;.netlify.app
+      </code>
+     </li>
+     <li>
+      Update the Netlify links in the
+      <code>
+       README.md
+      </code>
+      with your website links.
+     </li>
+    </ul>
+    <p>
+     Once this is done, all changes to github repository should reflect on the netlify website within few minutes after each push.
+    </p>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <h3 id="Interactive-Notebooks">
+     Interactive Notebooks
+     <a class="anchor-link" href="#Interactive-Notebooks">
+      ¶
+     </a>
+    </h3>
+    <ul>
+     <li>
+      <strong>
+       Bonus marks for making the notebooks interactive
+      </strong>
+     </li>
+     <li>
+      <a href="https://plotly.com/python/">
+       Plotly
+      </a>
+      is recommended for adding interactive visualizations.
+     </li>
+     <li>
+      Matplotlib animations are also recommended for making notebooks interactive.
+     </li>
+     <li>
+      Maplotlib animations are not rendered in HTML by default. It needs to be enabled in the notebook by the following snippet:
+      <div class="highlight">
+       <pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rc</span>
+<span class="n">rc</span><span class="p">(</span><span class="s1">'animation'</span><span class="p">,</span> <span class="n">html</span><span class="o">=</span><span class="s1">'jshtml'</span><span class="p">)</span>
+</pre>
+      </div>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <h3 id="What-would-be-considered-in-evaluation?">
+     What would be considered in evaluation?
+     <a class="anchor-link" href="#What-would-be-considered-in-evaluation?">
+      ¶
+     </a>
+    </h3>
+    <ol>
+     <li>
+      Link to the Netlify website (put the website links in README file)
+     </li>
+     <li>
+      From the code repository:
+      <ul>
+       <li>
+        <code>
+         index.html
+        </code>
+        in the gh-pages brach
+       </li>
+       <li>
+        <code>
+         index.ipynb
+        </code>
+        in the main branch
+       </li>
+      </ul>
+     </li>
+    </ol>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <h3 id="Doubts/QnA">
+     Doubts/QnA
+     <a class="anchor-link" href="#Doubts/QnA">
+      ¶
+     </a>
+    </h3>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <p>
+     We will be using
+     <a href="https://github.com/cs328-2022/writing-assignment/discussions">
+      GitHub Discussions
+     </a>
+     on the main
+     <code>
+      Writing-Assignment
+     </code>
+     repository for resolving doubts or any other concern.
+    </p>
+   </div>
+  </div>
+ </body>
 </html>
